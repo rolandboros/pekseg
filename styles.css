@@ -53,14 +53,14 @@ body {
   .logo {
     height: 160px;
     width: 160px;
-    float:left;
   }
 
   h1, ul {
     text-align: center;
     list-style-type: none;
-    margin: 0px;
     padding:25px;
+    font-size:30px;
+    margin:0px;
   }
 
 h2 {
@@ -69,11 +69,9 @@ h2 {
     margin: 0px;
     padding:15.45px;
 }
-  ul {
-    font-size:30px;
-    text-align: center;
-    margin-right:40px;
-  }
+
+    
+  
 
   .bodyimage {
     height: 570px;
@@ -123,11 +121,19 @@ img {
 
   @media screen and (max-width: 600px) {
     .topnav a {display: none;}
-    .logo{ margin:auto;
-        float: none;}
-
+     
+  
+    .logo{ 
+      display:block;
+      margin:auto;
+      float:none;
+      }
+      
+    
+  
     .topnav a.icon {
       float: right;
+      
       display: block;
     }}
   
@@ -159,11 +165,6 @@ img {
       float: none;
       display: block;
       text-align: center;
-    
   }
 
-  .logo {
-    display:block;
-        margin: 0px;
-        float: none;
-  } }
+  } 
