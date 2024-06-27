@@ -137,6 +137,8 @@ img {
       top:0px;
       right:0px;
       display: block;
+    .noHover {
+        pointer-events: none;}
     }}
   
   /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
@@ -162,6 +164,7 @@ img {
       position: absolute;
       right: 0;
       top: 0;
+      background-color: unset !important;
     }
     .topnav.responsive a {
       float: none;
