@@ -34,11 +34,8 @@ body {
   }
   
   /* Change the color of links on hover */
-  .topnav a:hover {
-    background-color: #ddd;
-    color: rgba(90,45,0,1);
-  }
-  
+
+
   /* Add an active class to highlight the current page */
   .topnav a.active {
  color:rgba(90,45,0,1);
